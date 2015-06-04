@@ -10,7 +10,17 @@
 [![Dev dependency Status](https://img.shields.io/david/dev/overlookmotel/co-bluebird.svg)](https://david-dm.org/overlookmotel/co-bluebird)
 [![Coverage Status](https://img.shields.io/coveralls/overlookmotel/co-bluebird/master.svg)](https://coveralls.io/r/overlookmotel/co-bluebird)
 
+## What it does
+
+It's [co](https://www.npmjs.com/package/co), but returning [bluebird](https://www.npmjs.com/package/bluebird) promises, rather than native V8 promises.
+
+#### Why?
+
+V8 promises at present have some features missing that [bluebird](https://www.npmjs.com/package/bluebird) has. In particular, bluebird's error handing and stack traces are better. And some people just prefer bluebird!
+
 ## Usage
+
+Exactly the same as [co](https://www.npmjs.com/package/co). See [here](https://www.npmjs.com/package/co).
 
 ## Tests
 
