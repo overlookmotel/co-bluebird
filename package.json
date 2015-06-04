@@ -1,0 +1,51 @@
+{
+  "name": "co-bluebird",
+  "version": "0.0.0",
+  "description": "co with bluebird promises",
+  "main": "./lib/",
+  "author": {
+    "name": "Overlook Motel"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/overlookmotel/co-bluebird.git"
+  },
+  "bugs": {
+    "url": "https://github.com/overlookmotel/co-bluebird/issues"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "mocha": "^2.2.4",
+    "chai": "^2.3.0",
+    "jshint": "^2.7.0",
+    "istanbul": "^0.3.14",
+    "coveralls": "^2.11.2"
+  },
+  "keywords": [
+    "co",
+    "bluebird",
+    "promise",
+    "promises",
+    "promisify",
+    "async",
+    "flow",
+    "generator",
+    "coro",
+    "coroutine"
+  ],
+  "scripts": {
+    "test": "make test",
+    "cover": "make cover"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "readmeFilename": "README.md",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/overlookmotel/co-bluebird/raw/master/License"
+    }
+  ]
+}
