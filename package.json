@@ -14,7 +14,7 @@
     "url": "https://github.com/overlookmotel/co-bluebird/issues"
   },
   "dependencies": {
-    "bluebird": "^2.9.27",
+    "bluebird": "^2.9.32",
     "co": "^4.5.4"
   },
   "devDependencies": {

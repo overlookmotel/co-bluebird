@@ -7,3 +7,7 @@
 ## 0.0.2
 
 * Pass `this` context in `co.wrap()`
+
+## Next
+
+* Update bluebird dependency
