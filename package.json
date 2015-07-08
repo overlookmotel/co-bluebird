@@ -1,6 +1,6 @@
 {
   "name": "co-bluebird",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "co with bluebird promises",
   "main": "./lib/",
   "author": {
