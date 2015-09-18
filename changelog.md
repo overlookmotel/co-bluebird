@@ -17,4 +17,5 @@
 * Use co-use module
 * Update bluebird dependency
 * Update dev dependencies
+* Tests run in harmony mode
 * Code tidy

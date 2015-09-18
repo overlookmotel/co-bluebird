@@ -16,17 +16,18 @@ chai.config.includeStack = true;
 
 /* jshint expr: true */
 /* global describe, it */
+/* jshint noyield: true */
 
 describe('co', function() {
 	it('returns a bluebird promise', function() {
-		var r = cob(function() {});
+		var r = cob(function*() {});
 		expect(r).to.be.instanceof(Bluebird);
 	});
 });
 
 describe('co.wrap', function() {
 	it('returns a function that returns a bluebird promise', function() {
-		var f = cob.wrap(function() {});
+		var f = cob.wrap(function*() {});
 		var r = f();
 		expect(r).to.be.instanceof(Bluebird);
 	});

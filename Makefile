@@ -20,9 +20,9 @@ endif
 
 tests:
 	@if [ "$$GREP" ]; then \
-		make jshint && make teaser && ./node_modules/mocha/bin/mocha --check-leaks --colors -t 10000 --reporter $(REPORTER) -g "$$GREP" $(TESTS); \
+		make jshint && make teaser && ./node_modules/mocha/bin/mocha --harmony --check-leaks --colors -t 10000 --reporter $(REPORTER) -g "$$GREP" $(TESTS); \
 	else \
-		make jshint && make teaser && ./node_modules/mocha/bin/mocha --check-leaks --colors -t 10000 --reporter $(REPORTER) $(TESTS); \
+		make jshint && make teaser && ./node_modules/mocha/bin/mocha --harmony --check-leaks --colors -t 10000 --reporter $(REPORTER) $(TESTS); \
 	fi
 
 jshint:
@@ -30,11 +30,11 @@ jshint:
 
 cover:
 	make teaser; \
-	./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec $(TESTS); \
+	node --harmony ./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec $(TESTS); \
 	rm -rf coverage
 
 coveralls:
-	./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec; \
+	node --harmony ./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha --report lcovonly -- -R spec; \
 	cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js; \
 	rm -rf ./coverage
 
