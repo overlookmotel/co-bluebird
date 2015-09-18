@@ -20,3 +20,4 @@
 * Tests run in harmony mode
 * Code tidy
 * package.json keywords
+* README

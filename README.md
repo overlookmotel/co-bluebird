@@ -12,7 +12,7 @@
 
 ## What it does
 
-It's [co](https://www.npmjs.com/package/co), but returning [bluebird](https://www.npmjs.com/package/bluebird) promises, rather than native V8 promises.
+It's [co](https://www.npmjs.com/package/co), but using [bluebird](https://www.npmjs.com/package/bluebird) promises, rather than native V8 promises.
 
 #### Why?
 
@@ -20,7 +20,9 @@ V8 promises at present have some features missing that [bluebird](https://www.np
 
 ## Usage
 
-Exactly the same as [co](https://www.npmjs.com/package/co). See [here](https://www.npmjs.com/package/co).
+Exactly the same as [co](https://www.npmjs.com/package/co).
+
+Also includes an extra `.use()` method, provided by [co-use](https://www.npmjs.com/package/co-use).
 
 ## Tests
 
