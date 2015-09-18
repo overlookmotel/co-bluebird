@@ -19,3 +19,4 @@
 * Update dev dependencies
 * Tests run in harmony mode
 * Code tidy
+* package.json keywords
