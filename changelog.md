@@ -12,7 +12,7 @@
 
 * Update bluebird dependency
 
-## Next
+## 1.0.0
 
 * Use co-use module
 * Update bluebird dependency
