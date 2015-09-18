@@ -17,3 +17,4 @@
 * Use co-use module
 * Update bluebird dependency
 * Update dev dependencies
+* Code tidy
