@@ -22,6 +22,6 @@
 * package.json keywords
 * README
 
-## Next
+## 1.0.1
 
 * Update co-use dependency
