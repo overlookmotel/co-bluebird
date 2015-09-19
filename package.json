@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "bluebird": "^2.10.0",
-    "co-use": "^1.0.1"
+    "co-use": "^1.1.0"
   },
   "devDependencies": {
     "mocha": "^2.3.2",
