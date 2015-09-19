@@ -26,6 +26,6 @@
 
 * Update co-use dependency
 
-## Next
+## 1.1.0
 
 * Update co-use dependency
