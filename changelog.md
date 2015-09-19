@@ -21,3 +21,7 @@
 * Code tidy
 * package.json keywords
 * README
+
+## Next
+
+* Update co-use dependency
