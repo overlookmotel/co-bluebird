@@ -1,5 +1,7 @@
 # co-bluebird.js
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/overlookmotel/co-bluebird.svg)](https://greenkeeper.io/)
+
 # co with bluebird promises
 
 ## Current status
